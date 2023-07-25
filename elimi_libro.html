@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="ESTILO/PRINCIPAL.css">
+  <link rel="stylesheet" type="text/css" href="ESTILO/Menu.css">
+  <title>ELIMINAR LIBRO</title>
+</head>
+<body>
+  <header>
+    <h1>ELIMINAR LIBRO</h1>
+    <div class="contenedor">
+      <nav class="menu">
+          <a href="insertar.html">INSERTAR</a>
+          <a href="actua_libro.html">ACTUALIZAR</a>
+          <a href="elimi_libro.html">ELIMINAR</a>
+          <a href="Consult_libro.php">INVENTARIO</a>
+      </nav>
+
+  </div>
+  </header>
+
+  <div class="container">
+    <!-- Formulario para agregar un libro -->
+    <form action="elimi_libro.php" method="post">
+    
+    <label for="ID_libro">ID_libro:</label>
+     <input type="number" name="clave" required><br>
+
+      <input type="submit" value="Eliminar Libro">
+    </form>  
+  </div>
+</body>
+</html>
